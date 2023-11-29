@@ -21,6 +21,8 @@
     <title>Loading Page</title>
 </head>
 <body>
-    <div class="loading">Loading...</div>
+    <div class="loading" id="loadingMessage">Loading...</div>
+
+    <script src="loading.js"></script>
 </body>
 </html>
