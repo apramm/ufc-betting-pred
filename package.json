@@ -1,0 +1,34 @@
+{
+  "name": "ufc-betting-predictor",
+  "version": "1.0.0",
+  "description": "UFC match outcome predictor with historical data analysis",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd client && npm install",
+    "scrape-data": "node scripts/scrape-ufc-data.js",
+    "train-model": "python scripts/train_model.py"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.6",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "csv-writer": "^1.6.0",
+    "multer": "^1.4.5-lts.1",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["ufc", "prediction", "machine-learning", "betting", "mma"],
+  "author": "Your Name",
+  "license": "MIT"
+}
