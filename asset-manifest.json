@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ufc-betting-pred/static/css/main.d6cbfa2e.css",
+    "main.js": "/ufc-betting-pred/static/js/main.1498759c.js",
+    "index.html": "/ufc-betting-pred/index.html",
+    "main.d6cbfa2e.css.map": "/ufc-betting-pred/static/css/main.d6cbfa2e.css.map",
+    "main.1498759c.js.map": "/ufc-betting-pred/static/js/main.1498759c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6cbfa2e.css",
+    "static/js/main.1498759c.js"
+  ]
+}
